@@ -16,9 +16,11 @@ export default function StatsPreview() {
     <div>
       <Head>
         <link rel="icon" href="/favicon-32x32.png" />
+        <title>Stats Component Preview</title>
+
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap"
           rel="stylesheet"
         />
       </Head>
@@ -75,7 +77,24 @@ export default function StatsPreview() {
           </div>
         </div>
         <div className=" pt-10 md:pt-0 md:fixed md:bottom-10">
-          <p className=" text-white text-center">Challenge by <a className='text-purple-800 hover:text-white' target="_blank" href="https://www.frontendmentor.io/">Frontend Mentor</a>. Coded by <a className='text-purple-800 hover:text-white' target="_blank" href="https://github.com/michaelessiet">Michael Essiet</a></p>
+          <p className=" text-white text-center">
+            Challenge by{" "}
+            <a
+              className="text-purple-800 hover:text-white"
+              target="_blank"
+              href="https://www.frontendmentor.io/"
+            >
+              Frontend Mentor
+            </a>
+            . Coded by{" "}
+            <a
+              className="text-purple-800 hover:text-white"
+              target="_blank"
+              href="https://github.com/michaelessiet"
+            >
+              Michael Essiet
+            </a>
+          </p>
         </div>
       </main>
     </div>
