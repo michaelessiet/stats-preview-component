@@ -97,6 +97,26 @@ const threecolpreview = () => {
             </button>
           </div>
         </div>
+        <div className=" pt-10 md:pt-0 md:fixed md:bottom-10">
+          <p className=" text-black text-center">
+            Challenge by{" "}
+            <a
+              className="text-purple-800 hover:text-green-900"
+              target="_blank"
+              href="https://www.frontendmentor.io/"
+            >
+              Frontend Mentor
+            </a>
+            . Coded by{" "}
+            <a
+              className="text-purple-800 hover:text-green-900"
+              target="_blank"
+              href="https://github.com/michaelessiet"
+            >
+              Michael Essiet
+            </a>
+          </p>
+        </div>
       </main>
     </div>
   );
